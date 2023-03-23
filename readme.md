@@ -10,7 +10,7 @@ To use these programs, you need to install the following Python packages:
 
 You also need to set up a Google Cloud project, create a "desktop application", and enable the YouTube API v3. You then need to create an OAuth client token and save it as `client_secrets.json` in the same directory as the scripts.
 
-## Backup Usage
+## Usage
 
 Run youtube-get.py to export your Youtube playlists as CSV files:
 
