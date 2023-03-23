@@ -1,4 +1,4 @@
-Youtube CSV editor
+YouTube CSV editor
 
 This repository has two programs - youtube-get.py and youtube-set.py.
 
