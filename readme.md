@@ -12,8 +12,14 @@ You also need to set up a Google Cloud project, create a "desktop application", 
 
 ## Backup Usage
 
-Run `youtube-get.py` to retrieve the contents of all your playlists. The playlists will be stored in the `playlists` directory.
+Run youtube-get.py to export your Youtube playlists as CSV files:
 
-## Restore Usage
+python youtube-get.py
 
-3. Run `youtube-set.py (filename)` to update the playlist with the contents of your modified CSV file.
+This will create a CSV file for each playlist in the playlists directory.
+
+To restore a playlist from a CSV file, run youtube-set.py with the path to the CSV file as an argument:
+
+python youtube-set.py /path/to/your/csv_file.csv
+
+Replace /path/to/your/csv_file.csv with the actual path to the CSV file.
