@@ -1,13 +1,19 @@
-YouTube CSV editor
+# YouTube CSV Editor
 
-This repository has two programs - youtube-get.py and youtube-set.py.
+This repository contains two programs, `youtube-get.py` and `youtube-set.py`, for editing YouTube playlists.
 
-To use this program, first install the following python packages:
+## Installation
 
-pip3 install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client and pandas
+To use these programs, you need to install the following Python packages:
 
-Next, go to your Google Cloud project console, create a 'desktop application', enable the youtube API v3, then create a oauth client token.  Save the token as client_secrets.json in the same directory as these scripts.
+`pip3 install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client and pandas`
 
-Run youtube-get.py to get the contents of all your playlists.  They will be stored in the directory playlists.
+You also need to set up a Google Cloud project, create a "desktop application", and enable the YouTube API v3. You then need to create an OAuth client token and save it as `client_secrets.json` in the same directory as the scripts.
 
-After modifying a playlist, run youtube-set.py (filename) to update a playlist with the contents of your modified CSV.
+## Usage
+
+1. Run `youtube-get.py` to retrieve the contents of all your playlists. The playlists will be stored in the `playlists` directory.
+
+2. Modify a playlist as desired.
+
+3. Run `youtube-set.py (filename)` to update the playlist with the contents of your modified CSV file.
