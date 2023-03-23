@@ -1,4 +1,4 @@
-# YouTube CSV Editor
+# YouTube CSV Backup and Restore
 
 This repository contains two programs, `youtube-get.py` and `youtube-set.py`, for editing YouTube playlists.
 
