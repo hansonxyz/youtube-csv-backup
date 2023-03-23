@@ -10,10 +10,10 @@ To use these programs, you need to install the following Python packages:
 
 You also need to set up a Google Cloud project, create a "desktop application", and enable the YouTube API v3. You then need to create an OAuth client token and save it as `client_secrets.json` in the same directory as the scripts.
 
-## Usage
+## Backup Usage
 
-1. Run `youtube-get.py` to retrieve the contents of all your playlists. The playlists will be stored in the `playlists` directory.
+Run `youtube-get.py` to retrieve the contents of all your playlists. The playlists will be stored in the `playlists` directory.
 
-2. Modify a playlist as desired.
+## Restore Usage
 
 3. Run `youtube-set.py (filename)` to update the playlist with the contents of your modified CSV file.
