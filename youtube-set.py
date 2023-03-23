@@ -84,7 +84,7 @@ def read_video_ids_from_csv(csv_filename):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python update_playlist.py [csv_file_path]")
+        print("Usage: python youtube-set.py [csv_file_path]")
         sys.exit(1)
 
     csv_file_path = sys.argv[1]
