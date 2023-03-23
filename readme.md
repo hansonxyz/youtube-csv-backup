@@ -23,3 +23,7 @@ To restore a playlist from a CSV file, run youtube-set.py with the path to the C
 `python youtube-set.py /path/to/your/csv_file.csv`
 
 Replace `/path/to/your/csv_file.csv` with the actual path to the CSV file.
+
+## Notes
+
+Make sure to follow the Google Youtube API guidelines and comply with their terms of service when using these scripts.  If you encounter any issues or have suggestions, feel free to open an issue on this repository.
